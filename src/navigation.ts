@@ -3,40 +3,52 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Products',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: 'Server',
+          href: getPermalink('/product/server'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
+          text: 'Cloud',
+          href: getPermalink('/product/cloud'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
+          text: 'VPS',
+          href: getPermalink('/product/vps'),
         },
         {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'CDN',
+          href: getPermalink('/product/cdn'),
+        },
+        {
+          text: 'Hosting',
+          href: getPermalink('/product/hosting'),
+        },
+        {
+          text: 'Email',
+          href: getPermalink('/product/email'),
+        },
+        {
+          text: 'SSL',
+          href: getPermalink('/product/ssl'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Platform',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'AlibabaCloud',
+          href: getPermalink('/platform/alibabacloud'),
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text: 'AWS',
+          href: getPermalink('/platform/aws'),
         },
         {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
+          text: 'Azure',
+          href: getPermalink('/platform/azure'),
         },
         {
           text: 'About us',
@@ -110,9 +122,8 @@ export const headerData = {
         },
       ],
     },
-
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/digizus/website', target: '_blank' }],
+  actions: [{ text: 'Download', href: 'https://github.com/digizus/digizus', target: '_blank' }],
 };
 
 export const footerData = {
@@ -120,23 +131,24 @@ export const footerData = {
     {
       title: 'Product',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Server', href: '#' },
+        { text: 'Cloud', href: '#' },
+        { text: 'VPS', href: '#' },
+        { text: 'CDN', href: '#' },
+        { text: 'Hosting', href: '#' },
+        { text: 'Email', href: '#' },
+        { text: 'SSL', href: '#' },
       ],
     },
     {
       title: 'Platform',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'DigiZus Desktop', href: '#' },
+        { text: 'AlibabaCloud', href: '#' },
+        { text: 'AWS', href: '#' },
+        { text: 'Azure', href: '#' },
+        { text: 'GCP', href: '#' },
+        { text: 'VMWare', href: '#' },
+        { text: 'Backup', href: '#' },
       ],
     },
     {
@@ -155,9 +167,6 @@ export const footerData = {
         { text: 'About', href: '#' },
         { text: 'Blog', href: '#' },
         { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
         { text: 'Shop', href: '#' },
       ],
     },
