@@ -51,20 +51,16 @@ export const headerData = {
           href: getPermalink('/platform/azure'),
         },
         {
-          text: 'About us',
-          href: getPermalink('/about'),
+          text: 'GCP',
+          href: getPermalink('/platform/gcp'),
         },
         {
-          text: 'Contact',
-          href: getPermalink('/contact'),
+          text: 'VMWare',
+          href: getPermalink('/platform/vmware'),
         },
         {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
+          text: 'Backup',
+          href: getPermalink('/platform/backup'),
         },
       ],
     },
@@ -123,7 +119,7 @@ export const headerData = {
       ],
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/digizus/digizus', target: '_blank' }],
+  actions: [{ text: 'Github', href: 'https://github.com/digizus/digizus', target: '_blank' }],
 };
 
 export const footerData = {
@@ -131,24 +127,24 @@ export const footerData = {
     {
       title: 'Product',
       links: [
-        { text: 'Server', href: '#' },
-        { text: 'Cloud', href: '#' },
-        { text: 'VPS', href: '#' },
-        { text: 'CDN', href: '#' },
-        { text: 'Hosting', href: '#' },
-        { text: 'Email', href: '#' },
-        { text: 'SSL', href: '#' },
+        { text: 'Server', href: '/product/server' },
+        { text: 'Cloud', href: '/product/cloud' },
+        { text: 'VPS', href: '/product/vps' },
+        { text: 'CDN', href: '/product/cdn' },
+        { text: 'Hosting', href: '/product/hosting' },
+        { text: 'Email', href: '/product/email' },
+        { text: 'SSL', href: '/product/ssl' },
       ],
     },
     {
       title: 'Platform',
       links: [
-        { text: 'AlibabaCloud', href: '#' },
-        { text: 'AWS', href: '#' },
-        { text: 'Azure', href: '#' },
-        { text: 'GCP', href: '#' },
-        { text: 'VMWare', href: '#' },
-        { text: 'Backup', href: '#' },
+        { text: 'AlibabaCloud', href: '/platform/alibabacloud' },
+        { text: 'AWS', href: '/platform/aws' },
+        { text: 'Azure', href: '/platform/azure' },
+        { text: 'GCP', href: '/platform/gcp' },
+        { text: 'VMWare', href: '/platform/vmware' },
+        { text: 'Backup', href: '/platform/backup' },
       ],
     },
     {

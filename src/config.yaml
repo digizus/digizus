@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: DigiZus
+  site: 'https://digizus.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: DigiZus
+    template: '%s — DigiZus'
+  description: "\U0001F680 A collaborative community for IT enthusiasts, sharing knowledge and resources on various technologies."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: DigiZus
     images:
       - url: '~/assets/images/default.png'
         width: 1200
